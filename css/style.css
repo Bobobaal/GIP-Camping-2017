@@ -1,0 +1,839 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/
+body {
+	background:url(../images/bg-body.jpg);
+	margin:0;
+	flex-direction: column;
+	display: flex;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+p a, label a {
+	color:#707070!important;
+}
+p a:hover, label a:hover {
+	color:#525252!important;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	background:url(../images/bg-header.png) repeat-x;
+	height:168px;
+	margin:0 0 41px;
+}
+.header div a {
+	outline:none;
+}
+.header div {
+	margin:0 auto;
+	padding:0 30px;
+	position:relative;
+	width:900px;
+}
+.header div a#logo {
+	display:block;
+	float:right;
+	height:103px;
+	margin:0 28px 0 0;
+	width:0px;
+}
+.header div a#logo img {
+	border:0;
+}
+.header div ul {
+	list-style: none;
+	margin: 0;
+	float:left;
+	overflow: hidden;
+	padding-top: 89px;
+	margin-left: -40px;
+}
+.header div ul li:first-child {
+	margin:0;
+}
+.header div ul li.selected {
+	background:url(../images/border-horizontal.gif) repeat-x left top #252525;
+}
+.header div ul li {
+	float:left;
+	height:51px;
+	margin:0 0 0 7px;
+	padding:0 10px;
+	text-align:center;
+}
+.header div ul li.selected a {
+	color:#fff;
+	text-shadow:0 -1px 0 #010101;
+}
+.header div ul li a {
+	color:#e8e1aa;
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	line-height:50px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #524437;
+	text-transform:uppercase;
+}
+.header div ul li a:hover {
+	color:#fff;
+}
+.header div div {
+	background:url(../images/interface.png) no-repeat -10px -606px;
+	height:73px;
+	padding:0;
+	position:absolute;
+	right:30px;
+	text-align:center;
+	top:0;
+	width:302px;
+}
+.header div div p {
+	color:#fff;
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	margin:18px 0 0;
+	text-shadow:0 -1px 0 #030002;
+	text-transform:uppercase;
+}
+.header div ul li a span {
+	font-size:20px;
+}
+.header div div p > span {
+	font-size:20px;
+	display: inline;
+}
+.header div div p > span > span {
+	color:#E17537;
+	display:inline;
+	font-size:19px;
+	margin:0;
+	width:auto;
+	padding:0;
+ *margin-right:4px; /* Needed for IE7 */
+}
+/*------------------------- Body ------------------------*/
+.body{
+	flex: 1;
+}
+.body div div div div.klanten div a, .body div div div div.reserveringen div a, .body div div div div.profiel div a{
+	text-decoration: none;
+}
+.body div {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border:0;
+	margin:0 auto;
+	padding:0 30px 42px;
+	width:900px;
+}
+.body div a {
+	outline:none;
+}
+.body div div.featured {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border-radius:0 0 0 0!important;
+	overflow:hidden;
+	padding:0 0 42px!important;
+	width:auto;
+}
+.body div div.featured img {
+	border:2px solid #a1ad7f;
+	float:left;
+}
+.body div div.featured div {
+	background:url(../images/frame1.gif) no-repeat center 12px #757e63;
+	border:0 none!important;
+	border-radius:0 0 0 0!important;
+	float:left;
+	height:379px;
+	padding:0!important;
+	text-align:center;
+	width:300px;
+}
+.body div div.featured div div {
+	background:url(../images/frame2.gif) no-repeat center 349px;
+	width:auto!important;
+}
+.body div div.featured div div h3 {
+	background:url(../images/interface.png) no-repeat -1px -680px;
+	border:0 none;
+	color:#534a39;
+	font-size:16px;
+	height:52px;
+	line-height:42px;
+	margin:24px auto 25px;
+	width:281px;
+	text-indent: 40px;
+}
+.body div div.featured div div h3 span {
+	font-size:20px;
+}
+.body div div.featured div div p {
+	border:0!important;
+	color:#fff!important;
+	line-height:24px!important;
+	padding:0 30px!important;
+	text-align:justify!important;
+	letter-spacing:0.028em;
+	font-weight:normal;
+	font-size:18px
+}
+.body div div.featured div div a {
+	background:url(../images/interface.png) no-repeat -10px -855px;
+	color:#fff;
+	display:block;
+	float:none;
+	font-size:14px;
+	font-weight:normal;
+	height:41px;
+	line-height:42px;
+	margin:68px auto 0;
+	padding:0;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #27221c;
+	width:160px;
+	letter-spacing:0.075em;
+}
+.body div div.featured div div a:hover {
+	background:url(../images/interface.png) no-repeat -266px -751px;
+	color:#fff!important;
+}
+.body div div {
+	background:none;
+	background-color:#e8e1ab;
+	border-radius:5px;
+	float:none!important;
+	overflow:hidden;
+	padding:17px 0!important;
+}
+.body div div div {
+	background:none;
+	border:1px solid #717a5d;
+	border-radius:0;
+	padding:0!important;
+	width:880px;
+}
+.body div div div div {
+	border-style:solid none;
+	margin:2px 0;
+}
+.body div div div div div.section {
+	border:0;
+	float:left;
+	margin:0;
+	padding:0!important;
+	width:880px;
+	border-color: #717A5D;
+	border-style: none solid none none;
+	border-width: 1px;
+}
+.body div div div div div.section h2 {
+	border-color:#717a5d;
+	border-width:1px;
+	color:#756752;
+	font-size:30px!important;
+	height:73px;
+	width:880px;
+	line-height:77px;
+	text-align:center;
+	text-shadow:0 1px 0 #fff7c6;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:2px 0 0 !important;
+}
+.body div div div div div.section p {
+	border-color: #6d765b;
+	border-style: solid none none;
+	border-width: 1px;
+	color: #6d765b;
+	line-height: 24px;
+	text-align: justify;
+	font-size: 20px;
+	letter-spacing: 0.028em;
+	color: #707070;
+	margin-top: 2px;
+	margin-bottom: 33px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.body div div div div.section > p {
+	font-size:20px;
+}
+.body div div div div div.section p a {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+	text-decoration:underline;
+}
+.body div div div div div.section ul {
+	float:left;
+	list-style:none;
+	margin:25px 0 28px;
+	padding:0 0 0 15px;
+	width:250px;
+}
+.body div div div div div.section ul.last {
+	padding:0 0 0 15px;
+	margin: 25px 0 0 44px;
+}
+.body div div div div div.section ul li {
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	border-style:none;
+	margin:11px 0 0;
+	padding:0 0 0 20px;
+}
+.body div div div div div.section ul li p {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:16px;
+	letter-spacing:0.028em;
+	line-height:24px;
+	text-decoration:none;
+	border:0;
+	margin:0;
+	padding:0;
+}
+.body div div div div div {
+	margin: 0;
+	width: 290px;
+	border:0;
+}
+.body div div div h3 {
+	color:#756555;
+	font-size:14px;
+	margin:0;
+	padding:9px 0 5px 17px;
+	text-align:left;
+	line-height:24px;
+	font-weight:normal;
+	padding-left: 17px;
+	letter-spacing:0.028em;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+}
+.body div div div ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.body div div div ul li:first-child {
+	margin:2px 0 0;
+}
+.body div div div ul li {
+	border-color:#717a5d;
+	border-style:solid none none;
+	border-width:1px;
+	overflow:hidden;
+}
+.body div div div ul li.last {
+	border-color:#717a5d;
+	border-style:solid none;
+	border-width:1px;
+}
+.body div div div ul li div {
+	background:none;
+	width:290px!important;
+}
+.body div div div ul li div span {
+	color:#717A5D;
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	margin:12px 0 0 17px;
+}
+.body div div div ul li div:first-child p {
+	border:0 none!important;
+	color:#707070;
+	font-size:16px!important;
+	letter-spacing:0.028em;
+	line-height:24px;
+	margin:2px 0 20px;
+	padding:6px 20px 0!important;
+}
+.body div div div a {
+	color:#756752;
+	display:inline;
+	font-size:16px;
+	margin:0 10px 0 0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	padding:9px 0 0;
+}
+.body div div div a:hover {
+	color:#756752!important;
+}
+.body div div div div.about, .body div div div div.profiel, .body div div div div.register, .body div div div div.reserveren, .body div div div div.geentoegang, .body div div div div.zoeken, .body div div div div.aanmelden, .body div div div div.klanten, .body div div div div.reserveringen, .body div div div div.plaatsen, .body div div div div.klantaanpassen, .body div div div div.profielaanpassen {
+	border-bottom: 0 none;
+	margin: 2px 0 0;
+	padding: 0 0 2px !important;
+	width: auto;
+}
+.body div div div div.about, .body div div div div.profiel {
+	border:0;
+}
+.body div div div div.about div:first-child, .body div div div div.profiel div:first-child {
+	border-style:solid none none;
+	padding:0!important;
+	width:auto;
+}
+.body div div div div.section h2 {
+	margin:2px 0;
+	padding-bottom:3px;
+	width:880px!important;
+}
+.body div div div div.about div:first-child h2, .body div div div div.profiel div:first-child h2, .body div div div div.register h2, .body div div div div.reserveren h2, .body div div div div.geentoegang h2, .body div div div div.zoeken h2, .body div div div div.aanmelden h2, .body div div div div.klanten h2, .body div div div div.reserveringen h2, .body div div div div.plaatsen h2, .body div div div div.klantaanpassen h2, .body div div div div.profielaanpassen h2 {
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:19px 0 18px;
+	margin:0 0 2px !important;
+}
+.body div div div div.about div:first-child div, .body div div div div.profiel div:first-child div {
+	border-style:solid none solid;
+	padding:32px 30px 0!important;
+	width:auto;
+	border-width: 1px;
+	font-size:16px;
+	line-height:24px;
+	border-color: #717A5D;
+}
+.body div div div div.about div:first-child p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:4px 0 25px;
+	padding:0;
+}
+.body div div div div.profiel div:first-child p {
+	border:0 none;
+	color:#756752;
+	font-weight: 500;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:4px 8px 10px;
+	padding:0;
+}
+.body div div div div.about div:first-child p a, .body div div div div.profiel div:first-child p a {
+	color: #E17439;
+	display: inline;
+	float: none;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.body div div div div.about div, .body div div div div.profiel div {
+	border-style:none none solid;
+	padding:32px 30px!important;
+	width:820px;
+	border-width:1px;
+	border-color: #717A5D;
+}
+.body div div div div.about div:first-child img {
+	margin-bottom:27px;
+}
+.body div div div div.about div div:first-child, .body div div div div.profiel div div:first-child {
+	border:0!important;
+	margin-right:40px;
+	width:412px;
+}
+.body div div div div.about div div, .body div div div div.profiel div div {
+	border:0;
+	float:left;
+	padding:0!important;
+	width:368px;
+}
+.body div div div div.about div div p, .body div div div div.profiel div div p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:5px 0 24px;
+	padding:0;
+}
+.body div div div div.about div div p a, .body div div div div.profiel div div p a {
+	font-weight:400;
+	text-decoration:underline;
+	display:inline;
+	margin:0;
+	padding:0;
+	float:none;
+}
+.body div div div div.register form, .body div div div div.reserveren form, .body div div div div.zoeken form, .body div div div div.aanmelden form, .body div div div div.klantaanpassen form, .body div div div div.profielaanpassen form {
+	border-color:#717A5D;
+	border-style:solid none;
+	border-width:1px;
+	margin:0;
+	overflow:hidden;
+	padding:40px 20px 40px;
+	width:840px;
+}
+.body div div div div.geentoegang div p {
+	color:#776855;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+	margin-top: 35px;
+}
+.body div div div div.geentoegang div img {
+	float: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 10px;
+}
+.body div div div div.register form textarea#address {
+	background:url(../images/interface.png) no-repeat -10px -517px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:65px;
+	margin:0 0 1px;
+	overflow:auto;
+	padding:7px 5px;
+	width:415px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.register form div, .body div div div div.reserveren form div {
+	width:auto;
+}
+.body div div div div.klanten div, .body div div div div.reserveringen div, .body div div div div.plaatsen div, .body div div div div.geentoegang div{
+	border-color:#717A5D;
+	border-style:solid none;
+	border-width:1px;
+	margin:0;
+	overflow:hidden;
+	padding:40px 20px 40px;
+	width:840px;
+}
+.body div div div div.zoeken form div:first-child td, .body div div div div.register form div:first-child td, .body div div div div.reserveren form div:first-child td, .body div div div div.aanmelden form div:first-child td, .body div div div div.klantaanpassen form td, .body div div div div.profielaanpassen form td {
+	padding:0 0 15px;
+	vertical-align:top;
+}
+.body div div div div.register form div:first-child label, .body div div div div.reserveren form div:first-child label, .body div div div div.klantaanpassen form div:first-child label, .body div div div div.profielaanpassen form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	width:229px;
+	line-height: 31px;
+}
+.body div div div div.zoeken form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	width:229px;
+	line-height: 31px;
+}
+.body div div div div.aanmelden form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	width:229px;
+	line-height: 31px;
+}
+.body div div div div.register form div:first-child p, .body div div div div.reserveren form div:first-child p, .body div div div div.klantaanpassen form div:first-child p, .body div div div div.profielaanpassen form div:first-child p {
+	color:#f00;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+}
+.body div div div div.zoeken form div:first-child p {
+	color:#f00;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+}
+.body div div div div.klanten div p, .body div div div div.reserveringen div p, .body div div div div.plaatsen div p {
+	color:#f00;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+}
+.body div div div div.plaatsen div p img {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #717A5D;
+}
+.body div div div div.aanmelden form div:first-child p {
+	color:#756752;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+}
+.body div div div div.klanten div table th, .body div div div div.reserveringen div table th, .body div div div div.plaatsen div table th, .body div div div div.profiel div table th {
+	color:#55917F;
+	font-size:14px;
+	font-weight:700;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:4px;
+	width:260px;
+	letter-spacing:0.028em;
+	border: 1px solid #717a5d;
+}
+.body div div div div.klanten div table td, .body div div div div.reserveringen div table td, .body div div div div.plaatsen div table td, .body div div div div.profiel div table td {
+	color:#776855;
+	font-size:14px;
+	font-weight:700;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:4px;
+	letter-spacing:0.028em;
+	border: 1px solid #717a5d;
+}
+.body div div div div.klanten div table td a, .body div div div div.reserveringen div table td a, .body div div div div.profiel div table td a {
+	text-decoration: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.body div div div div.plaatsen div table td a{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.body div div div div.klanten div table, .body div div div div.reserveringen div table, .body div div div div.plaatsen div table {
+    display: table;
+    border-collapse: collapse;
+	margin-bottom: 13px;
+}
+.body div div div div.profiel div table {
+    display: table;
+    border-collapse: collapse;
+	margin-bottom: 13px;
+	margin-left: 8px;
+}
+.body div div div div.register form div:first-child label.age {
+	margin:0 0 0 -140px;
+	width:auto;
+}
+.body div div div div.register form div:first-child input, .body div div div div.reserveren form div:first-child input, .body div div div div.zoeken form div:first-child input, .body div div div div.register form div:first-child select, .body div div div div.reserveren form div:first-child select, .body div div div div.klantaanpassen form div:first-child select, .body div div div div.profielaanpassen form div:first-child select, .body div div div div.zoeken form div:first-child select, .body div div div div.aanmelden form div:first-child input, .body div div div div.klantaanpassen form div:first-child input, .body div div div div.profielaanpassen form div:first-child input, .body div div div div.klanten div a button, .body div div div div.reserveringen div a button, .body div div div div.profiel div a button {
+	background:url(../images/interface.png) no-repeat -10px -1026px;
+	float: left;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	padding:7px 5px;
+	width:410px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.body div div div div.register form div:first-child a img, .body div div div div.reserveren form div:first-child a img {
+	border:0;
+}
+.body div div div div.register form div input#submit, .body div div div div.reserveren form div input#submit, .body div div div div.klantaanpassen form div input#submit, .body div div div div.profielaanpassen form div input#submit {
+	background: url(../images/interface.png) no-repeat -276px -404px;
+	cursor: pointer;
+	float: right;
+	height: 32px;
+	width: 132px;
+	text-shadow: 0 -1px 0 #99562e;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: inherit;
+	letter-spacing: 0.028em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+}
+.body div div div div.zoeken form div input#submit {
+	background: url(../images/interface.png) no-repeat -276px -404px;
+	cursor: pointer;
+	float: right;
+	height: 32px;
+	width: 132px;
+	text-shadow: 0 -1px 0 #99562e;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: inherit;
+	letter-spacing: 0.028em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+}
+.body div div div div.aanmelden form div input#submit {
+	background: url(../images/interface.png) no-repeat -276px -404px;
+	cursor: pointer;
+	float: right;
+	height: 32px;
+	width: 132px;
+	text-shadow: 0 -1px 0 #99562e;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: inherit;
+	letter-spacing: 0.028em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+}
+.body div div div div.klanten div a button, .body div div div div.reserveringen div a button {
+	background: url(../images/interface.png) no-repeat -276px -404px;
+	cursor: pointer;
+	height: 32px;
+	width: 132px;
+	text-shadow: 0 -1px 0 #99562e;
+	font-size: 10.5px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: inherit;
+	letter-spacing: 0.028em;
+	margin-left: 330px;
+	margin-bottom: 13px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+	display: block;
+}
+.body div div div div.profiel div a button {
+	background: url(../images/interface.png) no-repeat -276px -404px;
+	cursor: pointer;
+	height: 32px;
+	width: 132px;
+	text-shadow: 0 -1px 0 #99562e;
+	font-size: 11.5px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: inherit;
+	letter-spacing: 0.028em;
+	margin-left: 680px;
+	margin-bottom: 13px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+	display: block;
+}
+.body div div div div.register form div input#submit:hover, .body div div div div.reserveren form div input#submit:hover {
+	background:url(../images/interface.png) no-repeat -276px -457px;
+}
+.body div.register div h2, .body div.reserveren div h2, .body div.geentoegang div h2, .body div.zoeken div h2, .body div.klanten div h2, .body div.reserveringen div h2, .body div.plaatsen div h2, .body div.aanmelden div h2, .body div.klantaanpassen div h2, .body div.profielaanpassen div h2 {
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px!important;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	padding:19px 0 18px!important;
+	margin-bottom:2px!important;
+}
+.body div div div div div{
+	border-style:solid none solid;
+	padding:13px 30px 0!important;
+	width:auto;
+	border-width: 1px;
+	font-size:16px;
+	line-height:24px;
+	border-color: #717A5D;
+	color: #707070;
+    letter-spacing: 1px;
+}
+.body div div div div.register form div:first-child td span, .body div div div div.reserveren form div:first-child td span, .body div div div div.klantaanpassen form div:first-child td span, .body div div div div.profielaanpassen form div:first-child td span {
+	font-size:20px;
+}
+.body div div div div.register form div:first-child a, .body div div div div.reserveren form div:first-child a {
+	margin:0;
+}
+.body div div div a:hover {
+	color:#E17537;
+}
+.body div div div div.about div:first-child h3 span, .body div div div div.about div div h3 span, .body div div div div.profiel div:first-child h3 span, .body div div div div.profiel div div h3 span {
+	font-size:27px;
+	color:#7c8668;
+	font-size:26px;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-weight:normal;
+}
+.body div div div div.about div:first-child h3, .body div div div div.about div div h3, .body div div div div.profiel div div h3 {
+	border:0;
+	color:#7c8769;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+#verplicht {
+	color:#776855;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:0.028em;
+}
+/*------------------------- Footer ------------------------*/
+.footer {
+	background-color:#252525;
+	border-color:#1f1a14;
+	border-style:solid none none;
+	border-width:1px;
+}
+.footer div:first-child {
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 30px 7px;
+	width:900px;
+}
+.footer div {
+	background:url(../images/border-horizontal.gif) repeat-x left top;
+}
+.footer div p {
+	color:#6b7459;
+	font-size:16px;
+	margin:0 auto;
+	letter-spacing:0.028em;
+	padding:10px 60px 14px 0;
+	text-align:right;
+	width:900px;
+}
