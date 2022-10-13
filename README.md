@@ -2,7 +2,8 @@
 De website zelf is een template die ik aangepast heb naar mijn noden.
 
 ## Screenshots website
-Ik wilde een sticky footer op de website maar dat is mij niet gelukt
+Ik wilde een sticky footer op de website maar dat is mij niet gelukt  
+Een gewone gebruiker zal de navigatie items "Klanten" en "Reserveringen" niet zien.
 
 **Index**
 ![image](https://user-images.githubusercontent.com/15947020/195436463-d1ac2aac-8e9c-4aad-800e-90441dd5eb4f.png)
